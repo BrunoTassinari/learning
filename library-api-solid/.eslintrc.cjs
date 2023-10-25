@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'airbnb-base', 
+    'airbnb-base',
     'airbnb-typescript/base',
     'prettier/prettier',
     'plugin:prettier/recommended',
@@ -13,7 +13,7 @@ module.exports = {
   root: true,
   rules: {
     quotes: ['error', 'single'],
+    "import/prefer-default-export": "off",
+    "no-console": "off",
   }
-
-  
 };
