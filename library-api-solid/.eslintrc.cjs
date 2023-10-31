@@ -15,5 +15,6 @@ module.exports = {
     quotes: ['error', 'single'],
     "import/prefer-default-export": "off",
     "no-console": "off",
+    "class-methods-use-this": ['off']
   }
 };
